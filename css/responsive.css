@@ -1,0 +1,117 @@
+@media screen and (min-width: 960px){
+	header ul{
+		display: block !important;
+	}
+}
+@media screen and (min-width: 960px){ .team .chef{ margin-left: -3%; margin-right: -3%; } }
+@media screen and (min-width: 1080px){ .team .chef{ margin: 30px auto !important; } }
+
+
+@media screen and (max-width: 960px){
+	header ul{
+		display: none;
+		float: none;
+		clear: both;
+		width: 100%;
+	}
+	header ul, header li, header a{ width: 100%; }
+	header a{
+		display: block;
+		padding: 5px;
+	}
+	.fix a{ padding: 5px; }
+	.fix .font a{ padding: 5px 5px 0; }
+
+	.collapse{ display: block; }
+	header img{
+		width: 320px;
+		bottom: -90px;
+		left: -60px;
+	}
+	.about{ padding-top: 480px; }
+	.about .img{
+		height:480px;
+		width: 100%;
+	}
+	.about .rotate2{
+		display: none;
+	}
+	.menu .container img.slide-left{ left: -60px; }
+	.menu img.light{ right: -600px; }
+	.menu img.shadow{ right: -900px; }
+	.blog .img{ height: 280px; }
+	.posts img.rotate{ top: -50px; width: 100px; }
+}
+
+
+
+@media screen and (max-width: 786px){
+	header .size120{ font-size: 90px; }
+	header .size32{ font-size: 28px; }
+	header img{
+		width: 240px;
+		bottom: -90px;
+		left: -30px;
+	}
+	.about{ padding-top: 320px; }
+	.about .img{ height:320px; }
+	.menu .container img.slide-left{ left: -120px; }
+	.menu img.light{ right: -900px; }
+	.menu img.shadow{ right: -1300px; }
+	.blog .img{ height: 360px; }
+}
+
+
+@media screen and (max-width: 600px){
+	header .size120{ font-size: 80px; }
+	header .size32, .about .size32{ font-size: 24px; }
+	.about .size24{ font-size: 20px; }
+	.about{ padding-top: 260px; }
+	.about .img{ height:260px; }
+	.about .rotate{
+		width: 90px;
+		bottom: -10px;
+		right: -10px;
+	}
+	.menu .container img.slide-left{ left: -240px; }
+	.menu .leave.one{
+		top: 220px;
+		left: -5px;
+		width: 90px;
+	}
+	.menu .leave.two{
+		top: 210px;
+		right: -5px;
+		width: 60px;
+	}
+	.menu img.light{ right: -1000px; }
+	.menu img.shadow{ right: -1400px; }
+	.blog .img{ height: 300px; }
+	.posts img.rotate2{ bottom: -60px; width: 100px; }
+	.team .chef .food{
+		width: 100px;
+		bottom: -60px;
+		right: -60px;
+		z-index: 3;
+	}
+	.team .chef .food.rotate2{ right: auto; left: -60px; }
+	.copy{ display: none; }
+}
+
+
+@media screen and (max-width: 480px){
+	header .size32{ font-size: 18px; }
+	.about{ padding-top: 220px; }
+	.about .img{ height:220px; }
+	.menu img.light{ right: -1300px; }
+	.menu img.shadow{ right: -1750px; }
+	.blog .img{ height: 260px; }
+}
+
+
+@media screen and (max-width: 360px){
+	.menu img.light{ right: -1400px; }
+	.menu img.shadow{ right: -1900px; }
+	.blog .img{ height: 220px; }
+
+}
